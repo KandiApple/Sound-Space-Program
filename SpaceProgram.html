@@ -1,0 +1,57 @@
+<BBAssignment html>
+
+
+
+<html>
+    <script src="SpaceProgram.js"></script>
+    <link href="SpaceProgram.css" rel="stylesheet" type="text/css" />
+    <picture> 
+        <!--Allows my gif to be shown-->
+        <img src="file:///Users/kandilicious/Desktop/School%20Folders/CSC102/UATspaceLogo-2.jpeg" 
+        alt="UATspaceLogo" width="205" height="205">
+        
+        <img src="https://i.pinimg.com/originals/e8/ac/f3/e8acf353c62e02bcbd50859eb757718c.gif" 
+        alt="ArtGif" width="205" height="205">
+
+    </picture>
+
+    <head>
+        <title>
+            UAT Space Program
+        </title>
+    </head>
+
+
+    <body>
+        <h1 id="loginTitleStyle">Welcome to your Operator Login</h1>
+    
+            <h3>Please fill out the forms below...</h3>
+            <br>
+            <p id="loginStatus">Your status of login</p> 
+            <br>
+            <form id="creditSubmit" onsubmit="return false">
+                First Name: <input type="text" id="fName" /> <br>
+                Last Name: <input type="text" id="lName" /> <br>
+                Badge Number: <input type="number" id="badgeID" /> <br>
+                <input type="submit" onclick="checkCreds();"/>
+                <br>
+                <br>
+
+        <button class= "soundButton" onclick=“playStation();”>Play </button> 
+
+                <button class="button" onclick="start();">Start</button> 
+                <button class="button" onclick="stop();">Stop</button><br>
+                <br>
+                <br>
+                <button class= "soundButton" onclick=“playStation();”>Play Space Station Sounds</button> 
+                <br>
+                <br>
+                <button class= "soundButton" onclick=“hitdifferent(); id=”Button”>Play Space hitdifferent</button> 
+                <br>    
+                <br>
+                <p id=”pformat”>Nothing playing yet</p>
+            </form>
+    </body>
+
+
+</html>
